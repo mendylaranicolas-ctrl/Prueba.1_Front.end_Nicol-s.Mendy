@@ -313,3 +313,97 @@ blockquote {
     color: #1c3659;
     font-weight: bold;
 }
+
+/* --- SECCIÓN PROYECTOS (Commit 4) --- */
+.projects-section {
+    padding: 5rem 10%;
+    background-color: #f8fafc; /* Fondo gris claro */
+    color: #334155;
+}
+
+/* Fuente solicitada para los títulos */
+.sekuya-regular {
+    font-family: "Sekuya", system-ui, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* CSS GRID para la galería */
+.projects-grid {
+    display: grid;
+    /* Crea columnas responsivas: mínimo 300px, si hay más espacio se expanden */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos de la tarjeta (figure) */
+.project-card {
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    /* Transición suave para el efecto Hover */
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+/* EFECTO HOVER TIPO APPLE */
+.project-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Imagen / Placeholder de la tarjeta */
+.project-image {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+/* Contenido de la tarjeta (figcaption) */
+.project-card figcaption {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+}
+
+.project-category {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    color: #1e293b;
+    margin-bottom: 1rem;
+}
+
+.project-card p {
+    color: #475569;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    flex-grow: 1; /* Empuja el enlace hacia abajo para que queden alineados */
+}
+
+/* Estilo del enlace */
+.project-card a {
+    color: #1c3659;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+.project-card a:hover {
+    color: #f28b24; /* Naranja corporativo al pasar el mouse */
+}
