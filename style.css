@@ -213,3 +213,103 @@ blockquote {
     color: #1c3659;
     margin-bottom: 0.2rem;
 }
+
+/* --- SECCIÓN HABILIDADES (Commit 3) --- */
+.skills-section {
+    padding: 5rem 10%;
+    background-color: #ffffff; /* Fondo blanco para alternar con la sección anterior */
+    color: #334155;
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    max-width: 1000px;
+    margin: 0 auto 3rem auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden; /* Para que los bordes redondeados apliquen a la cabecera */
+}
+
+/* Estilos de la tabla HTML */
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.skills-table th {
+    background-color: #1c3659;
+    color: white;
+    padding: 1.2rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.skills-table td {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    color: #475569;
+}
+
+.skills-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Barras de progreso en la tabla */
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e2e8f0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Contenedor Flexbox para las listas */
+.skills-lists {
+    display: flex;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Tarjetas individuales de listas */
+.list-card {
+    flex: 1;
+    background-color: #f8fafc;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.list-card h3 {
+    color: #1c3659;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+/* Estilos para listas ordenadas y desordenadas */
+.list-card ul, .list-card ol {
+    padding-left: 1.5rem;
+    color: #475569;
+}
+
+.list-card li {
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+}
+
+/* Darle un color personalizado a los bullets/números */
+.list-card ul li::marker {
+    color: #f28b24;
+}
+.list-card ol li::marker {
+    color: #1c3659;
+    font-weight: bold;
+}
