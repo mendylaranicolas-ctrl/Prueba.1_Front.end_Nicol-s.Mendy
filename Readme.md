@@ -35,5 +35,5 @@ Este proyecto es una aplicación web de una sola página (**Single Page Applicat
 ├── README.md           # Documentación del proyecto (este archivo)
 └── /img                # Directorio de recursos visuales
 
-<a href="https://drive.google.com/drive/folders/1LUw0W7OvBYOPJQiG3RHJV4ssuEBfIlG6?usp=sharing" target="_blank">📁 Recursos Visuales</a>
+<link href="https://drive.google.com/drive/folders/1LUw0W7OvBYOPJQiG3RHJV4ssuEBfIlG6?usp=sharing" target="_blank">📁 Recursos Visuales</a>
 ```
