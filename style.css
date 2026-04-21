@@ -645,3 +645,82 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: #f28b24; /* Naranja al pasar el mouse */
 }
+
+/* Ajustes para Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 5%;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-container, .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .skills-lists {
+        flex-direction: column;
+    }
+
+    /* Hacer la tabla desplazable lateralmente en tablets */
+    .table-container {
+        overflow-x: auto;
+    }
+}
+
+/* Ajustes para Móviles (max-width: 480px) */
+@media (max-width: 480px) {
+    .navbar ul {
+        gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .contact-form-container, .contact-info-container {
+        padding: 1.5rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+}
+
+/* Accesibilidad: Estados de foco (Requisito 14) */
+input:focus, textarea:focus, select:focus, a:focus {
+    outline: 2px solid #f28b24;
+    outline-offset: 3px;
+}
