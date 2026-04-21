@@ -14,6 +14,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .logo-container {
@@ -75,7 +79,7 @@
 }
 
 .highlight {
-    color: #f28b24; /* Naranja para tu nombre */
+    color: #f28b24; /* Naranja para el nombre */
 }
 
 .hero-content h2 {
@@ -135,7 +139,7 @@
     margin-bottom: 1rem;
 }
 
-/* Línea decorativa debajo del título (Toque original) */
+/* Línea decorativa debajo del título */
 .divider {
     width: 60px;
     height: 4px;
@@ -616,4 +620,28 @@ blockquote {
     text-align: center;
     font-size: 0.85rem;
     opacity: 0.6;
+}
+
+/* 1. Desplazamiento suave para toda la página */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 2. Scrollbar (Barra de desplazamiento) personalizada */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f8fafc; /* Fondo gris claro */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1c3659; /* Azul de la marca */
+    border-radius: 6px;
+    border: 3px solid #f8fafc; /* Crea un efecto de margen interior */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f28b24; /* Naranja al pasar el mouse */
 }
