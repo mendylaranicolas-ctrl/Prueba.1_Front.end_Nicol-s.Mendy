@@ -34,6 +34,12 @@ Este proyecto es una aplicación web de una sola página (**Single Page Applicat
 ├── style.css           # Estilos globales, animaciones y responsive
 ├── README.md           # Documentación del proyecto (este archivo)
 └── /img                # Directorio de recursos visuales
+```
 
 <link href="https://drive.google.com/drive/folders/1LUw0W7OvBYOPJQiG3RHJV4ssuEBfIlG6?usp=sharing" target="_blank">📁 Recursos Visuales</a>
-```
+
+<img width="1908" height="660" alt="1" src="https://github.com/user-attachments/assets/4e7dcb6f-80df-492e-9d8d-7de2a912435b" />
+<img width="1902" height="762" alt="2" src="https://github.com/user-attachments/assets/887788c0-535b-4c4b-a6f0-755ee0a5ce7b" />
+<img width="1355" height="822" alt="3" src="https://github.com/user-attachments/assets/648e2423-674d-4185-af3d-3fb778982a8c" />
+<img width="1009" height="861" alt="4" src="https://github.com/user-attachments/assets/314e2bbe-5917-4245-8510-5e2e4a9b0a05" />
+<img width="1895" height="781" alt="5" src="https://github.com/user-attachments/assets/67a1f8b0-fec0-4fc1-8196-a8bcbce0476e" />
